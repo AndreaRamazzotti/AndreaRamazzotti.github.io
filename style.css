@@ -164,6 +164,7 @@ main.page .lede {
   display: grid;
   grid-template-columns: 300px 1fr 90px;
   border-bottom: var(--rule) solid var(--ink);
+  min-height: 65vh;
 }
 .hero-photo {
   background: var(--sand);
@@ -362,7 +363,12 @@ main.page .lede {
   .research-items {
     padding: 28px 0 28px 18px;
   }
+ .research-item {
+  padding: 20px 0 20px 20px;
+  margin: 0 0 0 -20px;
 }
+}
+
 
 /* ---- Publications page: matches research composition, rust band ---- */
 .pub-page {
@@ -466,6 +472,19 @@ main.page .lede {
   .pub-list {
     padding: 28px 20px;
   }
+.pub-item {
+  padding: 20px 20px;
+  margin: 0 -20px;
+  gap: 10px;
+}
+.pub-item .year {
+  width: 32px;
+  font-size: 12px;
+}
+.pub-item .links {
+  font-size: 14px;
+  padding: 4px 0;
+}
 }
 
 /* ---- Teaching page: bolder color-block composition ---- */
