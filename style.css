@@ -596,7 +596,7 @@ main.page .lede {
 .contacts-composition {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 160px;
+  grid-template-rows: minmax(200px, 35vh) minmax(160px, 28vh);
 }
 .contacts-info {
   grid-column: 1 / 3;
