@@ -34,10 +34,10 @@
   --rust: #c43c0a;   /* rust accent */
   --sand: #fac940;   /* warm neutral */
   --text-secondary: #555555;
-  --text-muted: #8a8a8a;
+  --text-muted: #6b6b6b;
   --rule: 2px;
-  --rule-heavy: 3px;
-  --divider: 1.5px;
+  --rule-heavy: 4px;
+  --divider: 1px;
   --max-width: 900px;
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Work Sans', -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -85,7 +85,8 @@ header.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 24px;
+  padding: 20px 28px 20px 118px;
+  max-width: none;
 }
 .site-header .name {
   font-size: 20px;
@@ -130,8 +131,9 @@ footer.site-footer.flush {
   margin-top: 0;
 }
 footer.site-footer .wrap {
-  padding: 18px 24px;
-  font-size: 12px;
+  padding: 18px 28px 18px 118px;
+  max-width: none;
+  font-size: 13px;
   color: var(--text-muted);
   display: flex;
   justify-content: space-between;
@@ -140,6 +142,7 @@ footer.site-footer .wrap {
   footer.site-footer .wrap {
     flex-direction: column;
     gap: 6px;
+    padding: 18px 20px;
   }
 }
 
@@ -196,7 +199,7 @@ main.page .lede {
   line-height: 1.35;
 }
 .hero-text p {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
   margin: 0 0 14px;
   max-width: 560px;
@@ -265,7 +268,7 @@ main.page .lede {
   display: flex;
   align-items: center;
   padding: 0 28px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-muted);
   min-height: 64px;
 }
@@ -353,7 +356,7 @@ main.page .lede {
   max-width: 900px;
 }
 .research-item p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin: 0;
   line-height: 1.7;
@@ -458,13 +461,13 @@ main.page .lede {
   margin: 0 0 4px;
 }
 .pub-item .venue {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-secondary);
   margin: 0;
   line-height: 1.7;
 }
 .pub-item .links {
-  font-size: 12px;
+  font-size: 13px;
   white-space: nowrap;
 }
 @media (max-width: 640px) {
@@ -554,7 +557,7 @@ main.page .lede {
   margin: 0 0 10px;
 }
 .teaching-content p {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
   margin: 0;
   line-height: 1.75;
@@ -621,7 +624,7 @@ main.page .lede {
   justify-content: center;
 }
 .contacts-info .label {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-muted);
